@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>index2page</title>
+	<style type="text/css">
+/* lightskyblue	#87CEFA	rgb(135,206,250)*/
+/*snow	#FFFAFA	rgb(255,250,250) */	
+       *{
+	margin: 0px;
+	padding: 0px;
+	font-family: 'Akaya Telivigala', cursive;
+	box-sizing:border-box; 
+         }
+.main{
+	width: 1366px;
+	height: 100vh;
+
+     }
+     .header{
+     	height: 20vh;
+     	background:linear-gradient(#b8dbf1 30%, #FFFAFA 30%);
+     	
+     	 }
+     	.header .leftdiv{
+     	 	width:400px;
+     	 	background: linear-gradient(#8d98e3 40%, #854fee 60%);
+     	 	float: left;
+     	 	margin-top: 60px;
+     	 	animation: mymove 5s linear infinite;
+            animation-direction: alternate;
+
+              }
+               @keyframes mymove{
+                 	from{padding-left:50px; }
+                 	to{padding-right:50px; }
+}
+     .leftdiv h2{
+         font-size:30px;
+         color: #fff;
+         padding: 3px 40px;
+         position: relative;
+        
+                 }
+               
+     	  .header .rightdiv{
+     	 	width:820px;
+     	 	float: right;
+     	 	margin-top: 70px;
+     	 	
+     	
+     	 }
+                    .rightdiv ul li{
+                    	display: inline-block;
+                    	padding-right:  70px;
+                    	font-size: 20px;
+                    	font-weight: bold;
+                                   }
+                                   .rightdiv ul li a{
+                                   	text-decoration: none;
+                                   	outline: none;
+                                 
+                                   	color: #000;
+                                   }
+                                   #ma{
+                                   	color:green ;
+                                   }
+                               
+                                    
+ .section{
+         	height: 80vh;
+         	clear: both;
+         }  
+         .section .content{
+         	box-sizing: border-box;
+         width:800px; 
+         float: left;
+         height: 80vh;
+         background:linear-gradient( to right,#b8dbf1 30%, #FFFAFA 30%);
+         
+         padding: 150px 150px;
+}
+.content h3{
+	font-size: 45px;
+	font-weight: bold;
+    letter-spacing: 2px;
+    padding-bottom: 15px;
+}
+.content h1{
+	font-size: 55px;
+	font-weight: bolder;
+	word-spacing: 4px;
+	letter-spacing: 2px;
+	 padding-bottom: 15px;
+}
+.content p{
+	word-spacing: 4px;
+	font-weight: bold;
+	letter-spacing: 2px;
+	 padding-bottom: 10px;
+}
+        
+         .section .pic{
+         width: 400px;
+         float: right;
+         margin-top:120px;
+         margin-right: 120px;
+            border-radius:45% 30%;
+           	background:#b8dbf1; 
+  } 
+   .section .pic img{
+   	padding: 20px 80px;
+   } 
+           .btn1{
+           	border: none;
+           	background:linear-gradient(#8d98e3 40%, #854fee 60%); 
+           	font-weight: bold;
+           	color:white;
+           	padding: 10px;
+           	letter-spacing: 2px;
+
+           }  
+           .btn1:hover{
+border: 2px solid #000;
+           	background:transparent; 
+           	color:black;
+           	padding: 8px;
+           	letter-spacing: 2px;
+           	transition: all 2s;
+           }              
+           .btn2{
+           border: 2px solid #000;
+           	background:transparent; 
+           	font-weight: bold;
+           	color:black;
+           	padding: 8px;
+           	letter-spacing: 2px;
+           } 
+           .btn2:hover{
+           	border: none;
+           	background:linear-gradient(#8d98e3 40%, #854fee 60%); 
+           	color:white;
+           	padding: 10px;
+           	letter-spacing: 2px;
+           }                 
+
+
+	</style>
+	<link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Akaya+Telivigala&display=swap" rel="stylesheet">
+</head>
+<body>
+	<div class="main">
+		<div class="header">
+			<div class="leftdiv"><h2>TEJuCREATIOn</h2></div>
+			<div class="rightdiv">
+				<UL>
+					<li><a id="ma" href="#" >HOME</a></li>
+					<li><a href="#">SERVICES</a></li>
+					<li><a href="#">GALLERY</a></li>
+					<li><a href="#">ABOUT</a></li>
+					<li><a href="#">CONTACT</a></li>
+				</UL>
+			</div>
+		</div>
+		<div class="section">
+		     <div class="content">
+		     	<h3>HELLO</h3>
+		     	<H1>I AM TEJASWI</H1>
+		     	<P>WEB DEVELOPER AND TEACHER<P><BR>
+		     	<a href="#"><button class="btn1">CONTACT</button></a>	
+		     	<a href="#"><button class="btn2">CLICK ME</button></a>
+		     </div>
+		     <div class="pic"><img src="pic3.png"></div>
+		</div>     
+	</div>
+
+</body>
+</html>
